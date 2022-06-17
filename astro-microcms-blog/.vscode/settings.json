@@ -1,0 +1,10 @@
+{
+  "search.exclude": {
+    "yarn.lock": true
+  },
+  "editor.formatOnSave": true,
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwindCSS.classAttributes": ["class", "className", "ngClass", "class:list"]
+}
