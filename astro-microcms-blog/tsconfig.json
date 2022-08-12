@@ -9,7 +9,42 @@
     "resolveJsonModule": true,
     // Enable stricter transpilation for better output.
     "isolatedModules": true,
+
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+
+    "declaration": true,
+
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": false,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
     // Add type definitions for our Vite runtime.
-    "types": ["vite/client"]
+    "types": ["@astrojs/image/client", "preact", "node"],
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@css/*": ["src/css/*"],
+      "@images/*": ["src/images/*"],
+      "@data/*": ["src/data/*"],
+      "@utils/*": ["src/utils/*"]
+    },
+    "jsx": "preserve",
+    "jsxImportSource": "preact"
   }
 }
