@@ -9,7 +9,7 @@ type Config = {
 const config: Config = {
   title: '',
   description: '',
-  siteUrl: process.env.SITE_URL,
+  siteUrl: import.meta.env.SITE_URL,
   googleFontsUrl:
     'https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap',
 }

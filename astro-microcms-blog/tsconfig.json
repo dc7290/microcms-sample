@@ -9,6 +9,7 @@
     "resolveJsonModule": true,
     // Enable stricter transpilation for better output.
     "isolatedModules": true,
+    "noEmit": true,
 
     "removeComments": true,
     "preserveConstEnums": true,
@@ -33,8 +34,6 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
 
-    // Add type definitions for our Vite runtime.
-    "types": ["@astrojs/image/client", "preact", "node"],
     "baseUrl": "./",
     "paths": {
       "@components/*": ["src/components/*"],

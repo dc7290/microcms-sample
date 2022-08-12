@@ -14,7 +14,7 @@
     "@astrojs/preact": "^1.0.2",
     "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^1.0.0",
-    "@types/node": "^16.11.7",
+    "@tailwindcss/typography": "^0.5.4",
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "@typescript-eslint/parser": "^5.33.0",
     "astro": "^1.0.3",
@@ -30,6 +30,7 @@
     "prettier-plugin-astro": "^0.5.0"
   },
   "dependencies": {
+    "microcms-js-sdk": "^2.2.1",
     "preact": "^10.10.2"
   }
 }
