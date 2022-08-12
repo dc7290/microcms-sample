@@ -18,7 +18,7 @@
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "@typescript-eslint/parser": "^5.33.0",
     "astro": "^1.0.3",
-    "astro-fonts-next": "^1.0.4",
+    "astro-fonts-next": "^1.0.5",
     "astro-robots-txt": "^0.3.7",
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
@@ -30,6 +30,6 @@
     "prettier-plugin-astro": "^0.5.0"
   },
   "dependencies": {
-    "preact": "^10.6.5"
+    "preact": "^10.10.2"
   }
 }
